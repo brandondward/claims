@@ -1,14 +1,110 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[
+    {
+        "id": 1,
+        "claimId": "1",
+        "date": "04/04/2020",
+        "facility": "Dignity Health - California Hospital",
+        "amount": "$3,832.04",
+        "highrisk": false,
+        "reviewer": "Siddarth Gami"
+    },
+    {
+        "id": 2,
+        "claimId": "138976519011",
+        "date": "03/29/2020",
+        "facility": "New Finch Medical Center",
+        "amount": "$5,477.82",
+        "highrisk": false,
+        "reviewer": "Siddarth Gami"
+    },
+    {
+        "id": 3,
+        "claimId": "567878651190",
+        "date": "03/18/2020",
+        "facility": "Dignity Health - California Hospital",
+        "amount": "$1,014.12",
+        "highrisk": true,
+        "reviewer": "Eliot Milton"
+    },
+    {
+        "id": 4,
+        "claimId": "436328721762",
+        "date": "02/24/2020",
+        "facility": "Dignity Health - California Hospital",
+        "amount": "$2,904.55",
+        "highrisk": false,
+        "reviewer": "Jessie Caslin-Wade"
+    },
+    {
+        "id": 5,
+        "claimId": "546746343567",
+        "date": "01/09/2020",
+        "facility": "Dignity Health - California Hospital",
+        "amount": "$4,914.08",
+        "highrisk": false,
+        "reviewer": "Angela Yu"
+    },
+    {
+        "id": 6,
+        "claimId": "112813345792",
+        "date": "04/04/2020",
+        "facility": "Dignity Health - California Hospital",
+        "amount": "$2,712.32",
+        "highrisk": true,
+        "reviewer": "Richard Bassford"
+    },
+    {
+        "id": 7,
+        "claimId": "888902341217",
+        "date": "04/04/2020",
+        "facility": "Dignity Health - California Hospital",
+        "amount": "$1,9124.08",
+        "highrisk": false,
+        "reviewer": "Jessie Caslin-Wade"
+    },
+    {
+        "id": 8,
+        "claimId": "776510092378",
+        "date": "03/22/2020",
+        "facility": "Dignity Health - California Hospital",
+        "amount": "$3,903.78",
+        "highrisk": false,
+        "reviewer": "Steve Rastogi"
+    },
+    {
+        "id": 9,
+        "claimId": "454567221111",
+        "date": "03/27/2020",
+        "facility": "Dignity Health - California Hospital",
+        "amount": "$1,045.22",
+        "highrisk": false,
+        "reviewer": "Richard Bassford"
+    },
+    {
+        "id": 10,
+        "claimId": "665781234902",
+        "date": "04/04/2020",
+        "facility": "Dignity Health - California Hospital",
+        "amount": "$4,147.11",
+        "highrisk": true,
+        "reviewer": "Christopher Ashford-Lin"
+    },
+    {
+        "id": 11,
+        "claimId": "897669394726",
+        "date": "04/03/2020",
+        "facility": "Dignity Health - California Hospital",
+        "amount": "$6,394.85",
+        "highrisk": true,
+        "reviewer": "Jessie Caslin-Wade"
+    },
+    {
+        "id": 12,
+        "claimId": "477289562345",
+        "date": "02/11/2020",
+        "facility": "Dignity Health - California Hospital",
+        "amount": "$1,882.04",
+        "highrisk": true,
+        "reviewer": "Steve Rastogi"
+    }
+]
