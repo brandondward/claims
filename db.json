@@ -1,14 +1,28 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post #1" },
-    { "id": 2, "title": "Post #2" },
-    { "id": 3, "title": "Post #3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "claims": [
+    { "id": 1, 
+      "claimId": "12345",
+      "date": "04/04/2020",
+      "facility": "Dignity Health - California Hospital",
+      "amount": "$3,832.04",
+      "highrisk": false,
+      "reviewer": "Siddarth Gami"
+    },
+    { "id": 2, 
+      "claimId": "138976519011",
+      "date": "03/29/2020",
+      "facility": "New Finch Medical Center",
+      "amount": "$5,477.82",
+      "highrisk": false,
+      "reviewer": "Siddarth Gami"
+    },
+    { "id": 3, 
+      "claimId": "567878651190",
+      "date": "03/18/2020",
+      "facility": "Dignity Health - California Hospital",
+      "amount": "$1,014.12",
+      "highrisk": true,
+      "reviewer": "Eliot Milton"
+    }
+  ]
 }
