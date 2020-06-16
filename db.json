@@ -1,28 +1,106 @@
 {
-  "claims": [
-    { "id": 1, 
-      "claimId": "12345",
-      "date": "04/04/2020",
-      "facility": "Dignity Health - California Hospital",
-      "amount": "$3,832.04",
-      "highrisk": false,
-      "reviewer": "Siddarth Gami"
+    "responseHeader": {
+      "transactionNotification": {
+        "status": "SUCCESS",
+        "statusCode": "0",
+        "responseDateTime": "2017-06-05 12:56:57:818",
+        "transactionId": "dekstopServices",
+        "remarks": {
+          "messages": [
+            {
+              "code": "200",
+              "description": "SUCCESS",
+              "message": "SUCCESS"
+            }
+          ]
+        }
+      }
     },
-    { "id": 2, 
-      "claimId": "138976519011",
-      "date": "03/29/2020",
-      "facility": "New Finch Medical Center",
-      "amount": "$5,477.82",
-      "highrisk": false,
-      "reviewer": "Siddarth Gami"
-    },
-    { "id": 3, 
-      "claimId": "567878651190",
-      "date": "03/18/2020",
-      "facility": "Dignity Health - California Hospital",
-      "amount": "$1,014.12",
-      "highrisk": true,
-      "reviewer": "Eliot Milton"
+    "responseBody": {
+      "subscriber": {
+        "subscriberIdentifier": "905001627",
+        "groupIdentifier": "W0004010",
+        "subscriberSocialSecurityNumber": null
+      },
+      "planMember": {
+        "planMemberIdentifier": "90500162700",
+        "planMemberIdentifierSuffixNumber": "00",
+        "planMemberSocialSecurityNumber": "600970107",
+        "planMemberAdditionalIdentifier": [
+          {
+            "planMemberAdditionalIdentifier": "W0004010|905001627|00",
+            "planMemberAdditionalIdentifierType": "GRPID_SUBID_SFX"
+          }
+        ],
+        "healthCareClaim": [
+          {
+            "claimNumber": "000122788900",
+            "claimVersionNumber": " ",
+            "subscriberIdentifier": "905001627",
+            "firstServiceDate": "20170201",
+            "lastServiceDate": "20170201",
+            "claimTypeCode": "M",
+            "claimTypeDescription": "Medical",
+            "patientName": "MARCEL SMITH",
+            "claimStatusCode": "15",
+            "claimStatusDescription": "Pended",
+            "totalClaimChargeAmount": 400,
+            "totalClaimPaidAmount": 500,
+            "totalCopayAmount": 10,
+            "totalCoinsuranceAmount": 20,
+            "totalDeductibleAmount": 100,
+            "claimReceivedDate": "20170601",
+            "claimDenialReasonCode": "CDD",
+            "claimDenialReasonDescription": "DUPLICATE - EXACT MATCH (SYSTEM)",
+            "providerPatientAccountNumber": "D20170444",
+            "claimDocumentIdentifier": null,
+            "claimImageIdentifier": " ",
+            "standardClaimsCollectionFacilityNumber": " ",
+            "healthCareClaimCoordinationOfBenefits": [
+              {
+                "cobTypeCode": "X",
+                "cobTypeDescription": "Other",
+                "carrierPaidAmount": 10,
+                "cobDisallowedAmount": 20,
+                "cobCoinsuranceAmount": 70,
+                "cobDeductibleAmount": 50,
+                "cobAllowedAmount": 30,
+                "cobCopaymentAmount": 60,
+                "cobOutOfPocketAmount": 80,
+                "cobAdjustmentAmount": -62.83,
+                "cobSanctionedAllowedAmount": 40
+              }
+            ],
+            "healthCareClaimProcedure": null,
+            "healthCareClaimDiagnosis": null,
+            "healthCareClaimPayment": null,
+            "medicareSupplementalClaim": {
+              "allowableAmount": 132.21,
+              "paidAmount": 105.77,
+              "deductibleAmount": 50,
+              "medicalCoinsuranceAmount": 26.44,
+              "psychCoinsuranceAmount": 60
+            },
+            "healthCareClaimNote": null,
+            "healthCareClaimProvider": [
+              {
+                "providerIdentifier": "100067509001",
+                "providerIdentifierTypeCode": "FC",
+                "providerRoleCode": "BILLING PROVIDER",
+                "nationalProviderIdentifier": "1023009073",
+                "providerName": "HANLEY, MICHAEL D."
+              },
+              {
+                "providerIdentifier": "PG0016374001",
+                "providerIdentifierTypeCode": "FC",
+                "providerRoleCode": "REFERRING PROVIDER",
+                "nationalProviderIdentifier": "1295805513",
+                "providerName": "GOLLES DEE E"
+              }
+            ]
+          }
+        ]
+      }
     }
-  ]
-}
+  }
+  
